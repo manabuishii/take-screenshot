@@ -5,14 +5,14 @@ Ubuntu
 Prerequisite
 ============
 
-xvfb
+xvfb 
 firefox
 
 python(recommened pyenv, virtualenv)
 
 HOWTOUSE
 ========
-Xvfb :10 -ac
+Xvfb :10 -ac 
 DISPLAY=:10 python take-screenshot.py position.sample.txt gbrowsesite
 
 SUPPORT SITE
