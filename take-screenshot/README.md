@@ -10,14 +10,14 @@ Ubuntu
 Prerequisite
 ============
 
-xvfb 
+xvfb  
 firefox
 
 python(recommened pyenv, virtualenv)
 
 HOW TO USE
 ==========
-Xvfb :10 -ac 
+Xvfb :10 -ac  
 DISPLAY=:10 python take-screenshot.py position.sample.txt gbrowsesite
 
 position.txtの書式
@@ -41,5 +41,6 @@ gbrowse site
 
 HOW IT WORK
 ===========
-This is using selenium from python
-Take screen shot
+pythonでseleniumを使いスクリーンショットをとっています。  
+スクリーンショットはアクセスしてから３０秒たったあとの状態をとっています。  
+本来は、完了をまつべきだとおもいますが、今後の課題です
